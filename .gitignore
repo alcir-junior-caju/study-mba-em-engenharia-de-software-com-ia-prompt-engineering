@@ -1,0 +1,44 @@
+# Environment variables
+.env
+
+# Python virtual environments
+/venv
+/.venv
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ruff cache
+.ruff_cache/
+
+# Pyright cache
+.pyright/
+
+# uv
+.uv/
+uv.lock
+
+# IDEs
+# Manter .vscode/ com configurações do projeto, mas ignorar arquivos pessoais
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
