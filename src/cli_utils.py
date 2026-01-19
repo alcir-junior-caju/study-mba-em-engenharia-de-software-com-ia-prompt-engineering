@@ -1,8 +1,8 @@
 """Utilidades para CLI com Rich."""
 
 import logging
+from collections.abc import Generator
 from contextlib import contextmanager
-from typing import Generator
 
 from rich.console import Console
 from rich.panel import Panel

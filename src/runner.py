@@ -51,12 +51,12 @@ def get_script_path(scripts: list[tuple[int, str, Path]], identifier: int | str)
     """
     if isinstance(identifier, int):
         # Buscar por número
-        for num, name, full_path in scripts:
+        for num, _name, full_path in scripts:
             if num == identifier:
                 return full_path
     else:
         # Buscar por nome
-        for num, name, full_path in scripts:
+        for _num, name, full_path in scripts:
             if name == identifier:
                 return full_path
     return None
@@ -198,7 +198,7 @@ def run(
 
     except FileNotFoundError:
         print_error("Python não encontrado no sistema")
-        raise typer.Exit(code=1)
+        raise typer.Exit(code=1) from None
     except Exception as e:
         print_error(f"Erro ao executar script: {e}")
         raise typer.Exit(code=1) from e
