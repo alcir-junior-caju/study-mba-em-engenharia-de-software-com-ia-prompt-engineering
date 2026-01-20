@@ -1,5 +1,6 @@
 from rich.console import Console
 from rich.text import Text
+from rich.markdown import Markdown
 
 
 def print_llm_result(prompt, response):
@@ -14,7 +15,8 @@ def print_llm_result(prompt, response):
 
     # Print response
     console.print(Text("LLM RESPONSE:", style="bold green"))
-    console.print(Text(response.content, style="bold blue"), end="\n\n")
+    console.print(Markdown(response.content))
+    console.print()  # Linha em branco para separar da seção de tokens
 
     # Print token usage
     usage = response.response_metadata.get('token_usage', {})
