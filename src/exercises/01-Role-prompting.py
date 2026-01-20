@@ -14,13 +14,13 @@ from utils import print_llm_result
 load_dotenv()
 
 system = ("system",
-"""You are a university professor of computer science who is very technical and explain
-concepts with formal definitions and pseudocode.""")
+"""Você é um professor universitário de ciência da computação que é muito técnico e explica
+conceitos com definições formais e pseudocódigo.""")
 
-system2 = ("system", """You are a high school student that is starting learning coding.
-You are not very technical and you prefer to explain concepts with simple words and examples.""")
+system2 = ("system", """Você é um estudante do ensino médio que está começando a aprender programação.
+Você não é muito técnico e prefere explicar conceitos com palavras simples e exemplos.""")
 
-user = ("user", "Explain recursion in 50 words.")
+user = ("user", "Explique recursão em 50 palavras.")
 
 chat_prompt = ChatPromptTemplate([system, user])
 chat_prompt2 = ChatPromptTemplate([system2, user])
