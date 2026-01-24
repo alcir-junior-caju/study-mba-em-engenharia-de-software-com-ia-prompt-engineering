@@ -79,6 +79,21 @@ uv run pyright
 
 ---
 
+## 📄 Docs
+
+- [Introdução](./docs/01-introducao.md)
+- [Role Prompting](./docs/02-role-prompting.md)
+- [Zero Shot](./docs/03-zero-shot.md)
+- [One/Few Shot](./docs/04-one-few-shot.md)
+- [Chain of Thought](./docs/05-chain-of-thought.md)
+- [Skeleton of Thought](./docs/06-skeleton-of-thought.md)
+- [Tree of Thought](./docs/07-tree-of-thought.md)
+- [Self Consistency](./docs/08-self-consistency.md)
+- [Directional Stimulus](./docs/09-directional-stimulus.md)
+- [React](./docs/10-react.md)
+
+---
+
 ## 📄 Licença
 
 MIT License - Criado por Alcir Junior [Caju]
