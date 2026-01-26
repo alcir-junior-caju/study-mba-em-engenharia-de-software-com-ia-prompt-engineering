@@ -7,8 +7,6 @@ Pense na Inteligência Artificial (IA) generativa como uma ferramenta incrivelme
 
 Como qualquer ferramenta avançada, ela só revela seu verdadeiro potencial nas mãos de um operador habilidoso que sabe exatamente o que pedir e como pedir. Sem as instruções corretas, os resultados podem ser imprecisos ou inúteis.
 
-[Image of human guiding artificial intelligence with precise instructions]
-
 É aqui que entra a **Engenharia de Prompts**. Essa é a habilidade de formular as instruções certas para guiar a IA e transformar a interação em uma conversa produtiva e eficaz.
 
 ---
