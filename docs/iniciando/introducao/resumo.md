@@ -1,3 +1,5 @@
+<img alt="Infografico" src="infografico.png" style="margin: 15px 0" />
+
 # Desvendando a Engenharia de Prompts: Um Guia para Iniciantes
 
 ## 1. Introdução: Conversando com Inteligências Artificiais
@@ -69,3 +71,5 @@ Para refinar a comunicação, existem técnicas que vão do básico ao raciocín
 Em última análise, a engenharia de prompts não é sobre programar uma máquina, mas sim sobre se comunicar com ela de forma clara, específica e intencional.
 
 Dominar essa habilidade permite transformar a IA generativa em um assistente poderoso, capaz de acelerar a inovação e elevar a qualidade do trabalho a um novo patamar.
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/c747450c-fe39-4663-ba54-068077ff6d57)
