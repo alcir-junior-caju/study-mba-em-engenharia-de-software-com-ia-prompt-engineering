@@ -85,7 +85,8 @@ uv run pyright
 
 - [Introdução](./docs/iniciando/01-introducao/aula.md)
     - [Resumo](./docs/iniciando/01-introducao/resumo.md)
-- [Role Prompting](./docs/iniciando/02-role-prompting.md)
+- [Role Prompting](./docs/iniciando/02-role-prompting/aula.md)
+    - [Resumo](./docs/iniciando/02-role-prompting/resumo.md)
 - [Zero Shot](./docs/iniciando/03-zero-shot.md)
 - [One/Few Shot](./docs/iniciando/04-one-few-shot.md)
 - [Chain of Thought](./docs/iniciando/05-chain-of-thought.md)
