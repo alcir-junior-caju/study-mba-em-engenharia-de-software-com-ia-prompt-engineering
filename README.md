@@ -83,7 +83,7 @@ uv run pyright
 
 ### Iniciando com Prompt Engineering
 
-- [Introdução](./docs/iniciando/01-introducao.md)
+- [Introdução](./docs/iniciando/introducao/aula.md)
 - [Role Prompting](./docs/iniciando/02-role-prompting.md)
 - [Zero Shot](./docs/iniciando/03-zero-shot.md)
 - [One/Few Shot](./docs/iniciando/04-one-few-shot.md)
