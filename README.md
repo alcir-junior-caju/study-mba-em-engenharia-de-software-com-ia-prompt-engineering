@@ -83,18 +83,18 @@ uv run pyright
 
 ### Iniciando com Prompt Engineering
 
-- [Introdução](./docs/iniciando/01-introducao/aula.md)
-    - [Resumo](./docs/iniciando/01-introducao/resumo.md)
-- [Role Prompting](./docs/iniciando/02-role-prompting/aula.md)
-    - [Resumo](./docs/iniciando/02-role-prompting/resumo.md)
-- [Zero Shot](./docs/iniciando/03-zero-shot.md)
-- [One/Few Shot](./docs/iniciando/04-one-few-shot.md)
-- [Chain of Thought](./docs/iniciando/05-chain-of-thought.md)
-- [Skeleton of Thought](./docs/iniciando/06-skeleton-of-thought.md)
-- [Tree of Thought](./docs/iniciando/07-tree-of-thought.md)
-- [Self Consistency](./docs/iniciando/08-self-consistency.md)
-- [Directional Stimulus](./docs/iniciando/09-directional-stimulus.md)
-- [React](./docs/iniciando/10-react.md)
+- [Introdução](./docs/01-iniciando/01-introducao/aula.md)
+    - [Resumo](./docs/01-iniciando/01-introducao/resumo.md)
+- [Role Prompting](./docs/01-iniciando/02-role-prompting/aula.md)
+    - [Resumo](./docs/01-iniciando/02-role-prompting/resumo.md)
+- [Zero Shot](./docs/01-iniciando/03-zero-shot.md)
+- [One/Few Shot](./docs/01-iniciando/04-one-few-shot.md)
+- [Chain of Thought](./docs/01-iniciando/05-chain-of-thought.md)
+- [Skeleton of Thought](./docs/01-iniciando/06-skeleton-of-thought.md)
+- [Tree of Thought](./docs/01-iniciando/07-tree-of-thought.md)
+- [Self Consistency](./docs/01-iniciando/08-self-consistency.md)
+- [Directional Stimulus](./docs/01-iniciando/09-directional-stimulus.md)
+- [React](./docs/01-iniciando/10-react.md)
 
 ---
 
