@@ -1,73 +1,69 @@
 <img alt="Infografico" src="infografico.png" style="margin: 15px 0" />
 
-# Desvendando a Engenharia de Prompts: Um Guia para Iniciantes
+### Prompt Enginnering para Devs
+## O que é Prompt Engineering
 
-## 1. Introdução: Conversando com Inteligências Artificiais
-Pense na Inteligência Artificial (IA) generativa como uma ferramenta incrivelmente poderosa, como um cinzel de mestre ou um laboratório de última geração.
+- A engenharia de prompts é o processo em que você orienta as soluções de ***Inteligência artificial generativa (IA generativa)*** para gerar os resultados desejados.
+- Embora a IA generativa tente imitar os humanos, ela requer instruções detalhadas para criar resultados relevantes e de alta qualidade.
+- Na engenharia de prompt, você escolhe os formatos, frases, palavras e símbolos mais adequados para orientar a IA a interagir com seus usuários de forma mais significativa.
 
-Como qualquer ferramenta avançada, ela só revela seu verdadeiro potencial nas mãos de um operador habilidoso que sabe exatamente o que pedir e como pedir. Sem as instruções corretas, os resultados podem ser imprecisos ou inúteis.
+## Importância para Desenvolvedores
 
-É aqui que entra a **Engenharia de Prompts**. Essa é a habilidade de formular as instruções certas para guiar a IA e transformar a interação em uma conversa produtiva e eficaz.
+- Desenvolver e manter.
+- Explorar possibilidades.
+- Automatizar tarefas repetitivas.
+- Obter soluções rápidas.
+- Auxiliar em processos complexos de desenvolvimento.
+- Aprimorar a colaboração.
 
----
+## Utilização e possibilidades
 
-## 2. O Que é Engenharia de Prompts?
-### Definição Fundamental
-A definição mais direta e precisa é a seguinte:
+- Documentação e Design Docs.
+- Implementação.
+- Code Review.
+- Mastermind e brainstorming.
 
-> **"A engenharia de prompts é o processo em que você orienta as soluções de Inteligência Artificial generativa para gerar os resultados desejados."**
+## Documentação e Design Docs
 
-### Por que orientar?
-Embora a IA imite o raciocínio humano, ela não tem intuição. Ela requer:
-* Instruções detalhadas.
-* Contexto claro.
-* Formato de saída definido.
+- Requisitos e Produto: TRD (Technical Requirements Document), PRD (Product Requirements Document), FRD (Functional Requirements Document), User Stories.
+- Design e Arquitetura: System Design (HL), Low-Level Design (LLD), C4.
+- Decisões Técnicas: ADRs (Architecture Decision Records), RFCs (Request for Comments).
+- Engineering Guidelines: Coding Standards, Code Review, Testing, CI/CD, Security.
+- Ops e Infra: Runbook, Playbook, Infrastructure Design Document, Post-morten.
 
-Ser um bom engenheiro de prompts é como ser um diretor de cinema: você fornece o roteiro e o contexto para que a IA execute a cena com excelência.
+## Implementação
 
----
+- Exploração.
+- Contextualização.
+- Tarefas e Plano de Ação.
+- Workflow e Rules.
+- Testing.
+- Debugging.
+- Refactoring.
+- Análise de Performance.
+- Commit & Pull Requests.
 
-## 3. Por Que é Essencial para Desenvolvedores?
-Para desenvolvedores, a engenharia de prompts é uma ferramenta estratégica que transforma a IA de uma curiosidade em uma parceira ativa.
+## Code Review
 
-* **⚡ Acelerar o Desenvolvimento:** Soluções rápidas para criar e manter código.
-* **💎 Melhorar a Qualidade:** Assistência em processos complexos e automação de tarefas.
-* **🚀 Fomentar a Inovação:** Exploração de novas abordagens para desafios técnicos.
+- Análise de Discrepâncias: Implementação reflete a documentação.
+- Verificações de Implementação de features.
+- Testabilidade e cobertura de código.
+- Verificação de Bugs.
+- Documentação / Comentários Internos
+- Coding Standards.
 
----
+## Tipos de Prompts e Variações
 
-## 4. Aplicações Práticas no Dia a Dia de um Desenvolvedor
-A engenharia de prompts atua em todas as fases do ciclo de vida de desenvolvimento de software (SDLC).
+Existem diversas categorias e técnicas de prompts que podem ser utilizadas por desenvolvedores para otimizar suas interações com IAs. Cada tipo oferece vantages especificas dependendo do contexto e caso de uso, desde tarefas simples sem exemplos prévios até raciocínios complexos e estruturados que melhoram significativamente a qualidade e precisão das respostas.
 
-### 📄 Documentação e Planejamento
-* **Ideação:** User Stories e PRDs.
-* **Arquitetura:** System Design, ADRs e RFCs.
-* **Operações:** Runbooks e Coding Standards.
+**Exemplos:**
 
-### 💻 Implementação e Debugging
-* **Testing:** Geração de casos de teste.
-* **Debugging:** Contextualização de erros.
-* **Refactoring:** Sugestões de melhoria e análise de performance.
-
-### 🔍 Revisão de Código (Code Review)
-* **Compliance:** Verificação de Coding Standards.
-* **Análise de Discrepâncias:** Comparar o código implementado com a documentação original.
-
----
-
-## 5. Um Vislumbre das Técnicas Avançadas
-Para refinar a comunicação, existem técnicas que vão do básico ao raciocínio estruturado.
-
-* **Zero-Shot:** Para tarefas diretas sem exemplos.
-* **Chain of Thought (CoT):** Para raciocínios complexos (passo a passo).
-* **Role Prompting:** Para definir uma persona (ex: "Aja como um SRE Sênior").
-* **Self-Consistency:** Para melhorar a precisão através de múltiplos caminhos de raciocínio.
-
----
-
-## 6. Conclusão: A Arte da Comunicação Eficaz
-Em última análise, a engenharia de prompts não é sobre programar uma máquina, mas sim sobre se comunicar com ela de forma clara, específica e intencional.
-
-Dominar essa habilidade permite transformar a IA generativa em um assistente poderoso, capaz de acelerar a inovação e elevar a qualidade do trabalho a um novo patamar.
-
-### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/c747450c-fe39-4663-ba54-068077ff6d57)
+- Role Prompting;
+- Zero-Shot;
+- One-Shot / Flew-Shot;
+- Chain of Thought (CoT);
+- Skeleton of Thought (SoT);
+- Tree of Thought (ToT);
+- Self-Consistency;
+- Directional Stimulus;
+- ReActing.
