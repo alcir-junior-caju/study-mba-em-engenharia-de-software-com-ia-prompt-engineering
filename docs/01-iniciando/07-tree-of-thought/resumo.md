@@ -153,4 +153,4 @@ Cada técnica possuí forças complementares:
 - **SoT** - Organização e completude
 - **ToT** - Comparação e tomada de decisão
 
-### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/b0213fa9-c75b-4fdc-a6ee-4b223db5b6fc)
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/527138e1-789b-4382-9741-5e7e2e0c2792)
