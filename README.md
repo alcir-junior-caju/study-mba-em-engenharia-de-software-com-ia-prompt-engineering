@@ -83,26 +83,25 @@ uv run pyright
 
 ### Iniciando com Prompt Engineering
 
-- [Introdução](./docs/01-iniciando/01-introducao/aula.md)
-    - [Resumo](./docs/01-iniciando/01-introducao/resumo.md)
-- [Role Prompting](./docs/01-iniciando/02-role-prompting/aula.md)
-    - [Resumo](./docs/01-iniciando/02-role-prompting/resumo.md)
- [Zero Shot](./docs/01-iniciando/03-zero-shot.md)
-     - [Resumo](./docs/01-iniciando/03-zero-shot/resumo.md)
- [One/Few Shot](./docs/01-iniciando/04-one-few-shot.md)
-     - [Resumo](./docs/01-iniciando/04-one-few-shot/resumo.md)
- [Chain of Thought](./docs/01-iniciando/05-chain-of-thought.md)
-     - [Resumo](./docs/01-iniciando/05-chain-of-thought/resumo.md)
- [Skeleton of Thought](./docs/01-iniciando/06-skeleton-of-thought.md)
-     - [Resumo](./docs/01-iniciando/06-skeleton-of-thought/resumo.md)
- [Tree of Thought](./docs/01-iniciando/07-tree-of-thought.md)
-     - [Resumo](./docs/01-iniciando/07-tree-of-thought/resumo.md)
- [Self Consistency](./docs/01-iniciando/08-self-consistency.md)
-     - [Resumo](./docs/01-iniciando/08-self-consistency/resumo.md)
- [Directional Stimulus](./docs/01-iniciando/09-directional-stimulus.md)
-     - [Resumo](./docs/01-iniciando/09-directional-stimulus/resumo.md)
- [React](./docs/01-iniciando/10-react.md)
-     - [Resumo](./docs/01-iniciando/10-react/resumo.md)
+- [Introdução](./docs/01-iniciando/01-introducao/resumo.md)
+- [Role Prompting](./docs/01-iniciando/02-role-prompting/resumo.md)
+- [Zero Shot](./docs/01-iniciando/03-zero-shot/resumo.md)
+- [One/Few Shot](./docs/01-iniciando/04-one-few-shot/resumo.md)
+- [Chain of Thought](./docs/01-iniciando/05-chain-of-thought/resumo.md)
+- [Skeleton of Thought](../docs/01-iniciando/06-skeleton-of-thought/resumo.md)
+- [Tree of Thought](./docs/01-iniciando/07-tree-of-thought/resumo.md)
+- [Self Consistency](./docs/01-iniciando/08-self-consistency/resumo.md)
+- [Directional Stimulus](./docs/01-iniciando/09-directional-stimulus/resumo.md)
+- [React](./docs/01-iniciando/10-react/resumo.md)
+
+### Conceitos importantes
+
+- [Context Window](./docs/02-conceitos/01-context-window/resumo.md)
+- [Truncamento](./docs/02-conceitos/02-truncamento/resumo.md)
+- [Sumarização](./docs/02-conceitos/03-sumarizacao/resumo.md)
+- [Sliding Window](./docs/02-conceitos/04-sliding-window/resumo.md)
+- [Prompt Caching](./docs/02-conceitos/05-prompt-caching/resumo.md)
+- [Batch Prompting](./docs/02-conceitos/06-batch-prompting/resumo.md)
 
 ---
 
