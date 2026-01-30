@@ -79,3 +79,5 @@ Foi formalizada no paper **"ReAct: Synergizing Reasoning and Acting in Language 
 | Usa ferramentas                | Sim                                       | Não executa ações                              |
 | Baseado em                     | Observações iterativas                    | Raciocínio estático                            |
 | Ideal para                     | Agentes ou assistentes                    | Explicações, análise lógica e debugging        |
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/7d263fd0-8bab-42f9-8c52-3c3487673119)

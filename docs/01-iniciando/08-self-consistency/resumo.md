@@ -109,3 +109,5 @@ Você quer estimar o número ideal de shards para uma base de dados multitenant 
     - Você implementa um script simples que conta a frequência e seleciona a mais recorrente
 
 **Resultado final**: 10 shards - justificado por frequência, coerência técnica e compatibilidade com os critérios operacionais do sistema.
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/378764e2-d564-47b8-8bf2-ad35037b8096)

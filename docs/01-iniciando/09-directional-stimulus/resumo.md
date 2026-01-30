@@ -78,3 +78,5 @@ Esses comandos **atuam como estímulos condicionais**, que alteram tanto **o for
 | Liberdade de formatação     | Baixa                                                  | Média                                                            |
 | Uso Típico                  | Documentações, especificações, planejamento           | Comparações, respostas formatadas, controle de estilo            |
 | Exemplo de Prompt           | SoT: "Preencha os tópicos: visão geral, arquitetura, riscos, conclusão” | "Liste as vantagens e desvantagens da arquitetura em tópicos” |
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/4bc01175-653f-4c1d-afe1-a4dbebc83462)

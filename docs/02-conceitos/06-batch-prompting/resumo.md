@@ -46,3 +46,5 @@ Ao receber uma resposta única contendo 10 resultados, seu código precisa saber
 
 ## 4. Conclusão: Quando o Batch Prompting Brilha?
 O batch prompting é uma técnica essencial para aplicações de **larga escala**. Quando você precisa processar milhares de solicitações similares, ele oferece a combinação imbatível de economia e velocidade, desde que você tenha um plano claro para estruturar e processar os dados de retorno.
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/53209a7c-bb66-491d-9c1c-79afbbce04bc)

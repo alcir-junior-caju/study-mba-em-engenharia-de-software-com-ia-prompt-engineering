@@ -17,3 +17,5 @@ Define explicitamente o papel do modelo, como professor, engenheiro ou crítico,
 - Difícil medir impacto real em tarefas simples;
 - Pouco contraste em modelos mais avançados;
 - Precisa de esforço constante em cadeias longas.
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/991272d9-3533-4f25-aff3-afafe918d233)

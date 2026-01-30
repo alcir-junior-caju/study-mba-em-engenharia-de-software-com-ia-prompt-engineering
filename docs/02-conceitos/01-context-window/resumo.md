@@ -66,3 +66,5 @@ A pergunta fundamental que deve guiar seu trabalho é:
 > **"Como eu faço para obter o melhor resultado usando o MENOR prompt possível?"**
 
 Dominar a habilidade de ser conciso e eficaz, aproveitando o "cérebro" do modelo sem sobrecarregar sua "memória RAM", é o que separa um sistema de IA eficiente de um sistema lento e caro.
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/7862f367-74cd-4c65-b659-47525cde8e86)

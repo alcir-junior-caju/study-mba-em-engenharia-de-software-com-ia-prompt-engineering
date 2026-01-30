@@ -75,3 +75,5 @@ A técnica foi inspirada diretamente em um estudo acadêmico publicado por **Zha
 | One-Shot / Few-Shot    | Parcial          | Opcional                  | Repetir padrões de exemplo com precisão       |
 | Chain of Thought       | Não              | Sim                       | Diagnóstico, debugging, raciocínio técnico    |
 | Skeleton of Thought    | Sim              | Opcional                  | Documentações, especificações                 |
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/b0213fa9-c75b-4fdc-a6ee-4b223db5b6fc)

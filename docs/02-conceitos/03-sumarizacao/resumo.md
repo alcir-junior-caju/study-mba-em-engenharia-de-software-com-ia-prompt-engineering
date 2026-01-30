@@ -54,3 +54,5 @@ A eficácia da sumarização depende inteiramente da qualidade da instrução (p
 A sumarização é uma técnica essencial para gerenciar o contexto, muito superior ao truncamento.
 
 No entanto, seu uso exige consciência: é preciso aceitar a perda de detalhes e dominar a arte de **pedir o resumo certo**. Isso transforma a sumarização de uma simples ferramenta de compactação em um poderoso aliado para a coerência da IA.
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/cf56d535-6947-443e-a00b-eb8cd0606c37)

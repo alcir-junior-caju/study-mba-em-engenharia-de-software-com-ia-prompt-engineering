@@ -152,3 +152,5 @@ Cada técnica possuí forças complementares:
 - **CoT** - Raciocínio Lógico
 - **SoT** - Organização e completude
 - **ToT** - Comparação e tomada de decisão
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/b0213fa9-c75b-4fdc-a6ee-4b223db5b6fc)

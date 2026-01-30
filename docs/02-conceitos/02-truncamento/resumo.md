@@ -7,8 +7,6 @@ Imagine que você está tentando explicar uma ideia complexa para um amigo, mas 
 
 Conforme a conversa avança, o quadro fica cheio. Para adicionar um novo ponto, você precisa tomar uma decisão: **o que apagar?** Inevitavelmente, você terá que apagar as informações mais antigas para dar espaço às mais recentes.
 
-
-
 > *É exatamente isso que acontece com muitos modelos de Inteligência Artificial: eles têm um "quadro branco" limitado, chamado de **Janela de Contexto**. E o ato de "apagar" o conteúdo para abrir espaço é precisamente o que chamamos de **Truncamento**.*
 
 ---
@@ -46,3 +44,5 @@ Se o truncamento não for tratado de forma estratégica, ele pode levar a falhas
 O truncamento não é uma falha, mas sim uma ferramenta essencial para gerenciar um recurso limitado.
 
 > **A lição fundamental:** Truncar não é um erro, mas uma concessão deliberada. Ao projetar sistemas de IA, você está decidindo conscientemente qual informação pode se dar ao luxo de perder para manter a funcionalidade principal.
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/f12ef4c3-f080-4164-a704-ed115839e181)

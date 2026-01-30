@@ -193,3 +193,5 @@ Prompt:
 | Zero-Shot              | Nenhum          | Média            | Uso genérico                          |
 | One-Shot / Few-Shot    | Sim             | Opcional         | Imitar formato, estilo ou padrões     |
 | Chain of Thought       | Indiferente     | Sim              | Lógica, planejamento, análise, debugging |
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/fdf6ad7d-6d3d-4e85-8c65-50bc495e58e3)

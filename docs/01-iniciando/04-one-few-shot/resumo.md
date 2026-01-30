@@ -78,3 +78,5 @@ O modelo gera o teste para **Multiplica** seguindo o estilo e estrutura do exemp
 | Zero-Shot      | Nenhum   | Média    | Baixo              | Baixo  |
 | One-Shot       | 1        | Média+   | Médio              | Médio  |
 | Few-Shot       | 2-5      | Alta     | Alto               | Alto   |
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/a237a997-b9cb-4d8d-af8b-19bd3435a369)

@@ -75,3 +75,5 @@ Mesmo sem exemplos, prompts estruturados com clareza (persona, formato, objetivo
 Apesar desse exemplo fornecer instruções estruturadas, **não apresenta nenhum exemplo anterior**. O modelo precisa inferir a tarefa com base apenas na instrução natural.
 
 *[Link do codex pagina da microsoft](https://microsoft.github.io/prompt-engineering/)*
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/83ab22fb-a81d-4c79-98bc-cb94762219e9)

@@ -41,3 +41,5 @@ O que acontece com os dados que "caem" da janela não é apenas um detalhe técn
 Em essência, a técnica da Sliding Window é uma poderosa ferramenta de gerenciamento de foco.
 
 Ela garante que a IA esteja sempre olhando para o "agora", mantendo as interações mais recentes em sua memória ativa enquanto o passado é movido para fora do processamento imediato.
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/4d36ada9-538c-4ec3-99a2-118f25f36d05)

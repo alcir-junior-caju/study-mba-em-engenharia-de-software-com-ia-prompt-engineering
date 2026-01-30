@@ -67,3 +67,5 @@ Existem diversas categorias e técnicas de prompts que podem ser utilizadas por 
 - Self-Consistency;
 - Directional Stimulus;
 - ReActing.
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/6d5b01c1-ddf5-4b3a-b15b-db9336dcb372)

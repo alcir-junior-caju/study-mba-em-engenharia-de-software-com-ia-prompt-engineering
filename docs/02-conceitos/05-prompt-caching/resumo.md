@@ -61,3 +61,5 @@ O brilho de um profissional da área está na capacidade de arquitetar soluçõe
 1.  **A Economia Mora no Modelo:** O cache ocorre no processamento dos tokens de entrada, não na saída final.
 2.  **Estratégias Diferentes:** OpenAI exige padronização (cache implícito); Gemini exige gerenciamento de IDs (cache explícito).
 3.  **Valor Além das Palavras:** Engenharia de Prompt profissional é sobre transformar arquitetura técnica em lucro e performance.
+
+### [Assista ao resumo em vídeo](https://github.com/user-attachments/assets/e81c5fa3-4d48-4241-a646-b09d4c485e87)
