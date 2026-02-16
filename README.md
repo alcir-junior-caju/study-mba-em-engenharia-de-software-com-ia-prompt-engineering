@@ -40,16 +40,106 @@ uv run runner start
 
 ## 📁 Estrutura
 
+
 ```
 .
+├── pyproject.toml                  # Configuração do projeto
+├── README.md                       # Documentação principal
+├── test_cli.sh                     # Script de teste da CLI
+├── _images/                        # Imagens do projeto
+├── docs/                           # Documentação
+│   ├── 01-iniciando/
+│   │   ├── 01-introducao/
+│   │   │   ├── post.md
+│   │   │   └── resumo.md
+│   │   ├── 02-role-prompting/
+│   │   │   ├── post.md
+│   │   │   └── resumo.md
+│   │   ├── 03-zero-shot/
+│   │   │   ├── post.md
+│   │   │   └── resumo.md
+│   │   ├── 04-one-few-shot/
+│   │   │   ├── post.md
+│   │   │   └── resumo.md
+│   │   ├── 05-chain-of-thought/
+│   │   │   ├── post.md
+│   │   │   └── resumo.md
+│   │   ├── 06-skeleton-of-thought/
+│   │   │   ├── post.md
+│   │   │   └── resumo.md
+│   │   ├── 07-tree-of-thought/
+│   │   │   ├── post.md
+│   │   │   └── resumo.md
+│   │   ├── 08-self-consistency/
+│   │   │   ├── post.md
+│   │   │   └── resumo.md
+│   │   ├── 09-directional-stimulus/
+│   │   │   ├── post.md
+│   │   │   └── resumo.md
+│   │   ├── 10-react/
+│   │   │   ├── post.md
+│   │   │   └── resumo.md
+│   └── 02-conceitos/
+│       ├── 01-context-window/
+│       │   ├── post.md
+│       │   └── resumo.md
+│       ├── 02-truncamento/
+│       │   ├── post.md
+│       │   └── resumo.md
+│       ├── 03-sumarizacao/
+│       │   ├── post.md
+│       │   └── resumo.md
+│       ├── 04-sliding-window/
+│       │   ├── post.md
+│       │   └── resumo.md
+│       ├── 05-prompt-caching/
+│       │   ├── post.md
+│       │   └── resumo.md
+│       ├── 06-batch-prompting/
+│       │   ├── post.md
+│       │   └── resumo.md
+├── gerenciamento-e-versionamento-de-prompts/
+│   └── prompts/
+│       ├── registry.yaml
+│       ├── agent-code-reviewer/
+│       │   └── v1.0.0/
+│       │       ├── prompt.tests.yaml
+│       │       └── prompt.yaml
+│       └── agent-pull-request-creator/
+│           ├── v1.0.0/
+│           │   ├── prompt.tests.yaml
+│           │   └── prompt.yaml
+│           └── v1.0.1/
+│               ├── prompt.tests.yaml
+│               └── prompt.yaml
+├── prompts-e-workflow-de-agentes/
+│   ├── agents/
+│   │   ├── architectural-analyzer.md
+│   │   ├── component-deep-analyzer.md
+│   │   ├── dependency-auditor.md
+│   │   └── orchestrator.md
+│   └── commands/
+│       └── run-project-state-full-report.md
 ├── src/
-│   ├── runner.py         # CLI interativa
-│   ├── cli_utils.py      # Utilitários
-│   └── exercises/        # Seus scripts Python
-│       ├── 01.py
-│       ├── 02.py
-│       └── 03.py
-└── pyproject.toml        # Configuração do projeto
+│   ├── cli_utils.py
+│   ├── prompt_registry.py
+│   ├── runner.py
+│   ├── utils.py
+│   └── exercises/
+│       ├── 01-Role-prompting.py
+│       ├── 02-zero-shot.py
+│       ├── 03-one-few-shot.py
+│       ├── 04-CoT.py
+│       ├── 05-CoT-Self-consistency.py
+│       ├── 06-ToT.py
+│       ├── 07-SoT.py
+│       ├── 08-ReAct.py
+│       ├── 09-Prompt-channing.py
+│       ├── 10-Least-to-most.py
+│       ├── 11-agent_code_reviewer.py
+│       ├── 12-agent_pull_request.py
+│       ├── 13-langsmith_client.py
+│       └── 14-langsmith_push.py
 ```
 
 ---
