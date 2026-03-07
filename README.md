@@ -193,6 +193,12 @@ uv run pyright
 - [Prompt Caching](./docs/02-conceitos/05-prompt-caching/resumo.md)
 - [Batch Prompting](./docs/02-conceitos/06-batch-prompting/resumo.md)
 
+### Estruturação
+- [Estruturação de prompts e estratégias de utilização](./docs/03-estruturacao/resumo.md)
+
+### Versionamento
+- [Versionamento e Gestão de Prompts na Engenharia de Software](./docs/04-versionamento/resumo.md)
+
 ---
 
 ## 📄 Licença
