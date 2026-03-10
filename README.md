@@ -199,6 +199,9 @@ uv run pyright
 ### Versionamento
 - [Versionamento e Gestão de Prompts na Engenharia de Software](./docs/04-versionamento/resumo.md)
 
+### Enrichment
+- [Prompt Enrichment e Query Reformulation](./docs/05-query-reformulation-prompt-enrichment/resumo.md)
+
 ---
 
 ## 📄 Licença
