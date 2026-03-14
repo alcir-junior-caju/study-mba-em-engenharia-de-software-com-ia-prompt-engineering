@@ -202,6 +202,9 @@ uv run pyright
 ### Enrichment
 - [Prompt Enrichment e Query Reformulation](./docs/05-query-reformulation-prompt-enrichment/resumo.md)
 
+### Evaluation
+- [Prompt Evaluation ](./docs/06-evaluation/resumo.md)
+
 ---
 
 ## 📄 Licença
