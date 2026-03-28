@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
-from langchain_core.output_parsers import StrOutputParser
 
 # Load environment variables
 load_dotenv()
@@ -91,13 +90,6 @@ expansion_prompt = PromptTemplate(
     ),
 )
 
-# ========= Create Runnable Chains =========
-
-draft_chain = draft_prompt | llm | StrOutputParser()
-query_chain = query_prompt | llm | StrOutputParser()
-fill_chain = fill_prompt | llm | StrOutputParser()
-expansion_chain = expansion_prompt | llm | StrOutputParser()
-
 
 def run_prompt(prompt_template, **kwargs):
     text = prompt_template.format(**kwargs)
@@ -107,7 +99,7 @@ def run_prompt(prompt_template, **kwargs):
 
 # ========= Enhanced Main Function =========
 
-def iter_retgen_multi(question: str, max_iters: int = 10, target_completeness: float = 0.95):
+def iter_retgen_multi(question: str, max_iters: int = 10):
     """
     Perform iterative retrieval and generation with multiple natural rounds.
     Continues until all gaps are filled or max iterations reached.
@@ -115,7 +107,6 @@ def iter_retgen_multi(question: str, max_iters: int = 10, target_completeness: f
     Args:
         question: The question to answer
         max_iters: Maximum number of iterations to refine the answer
-        target_completeness: Target completeness (0-1), stops when achieved
 
     Returns:
         The final refined answer
@@ -124,7 +115,7 @@ def iter_retgen_multi(question: str, max_iters: int = 10, target_completeness: f
     # Generate initial draft with many gaps
     draft, draft_text, draft_res = run_prompt(draft_prompt, question=question)
     print("\n=== Initial Draft (with many gaps) ===")
-    print(draft)
+    print_llm_result(draft_text, draft_res)
 
     # Count initial gaps
     initial_gaps = draft.count("[MISSING:")
@@ -146,6 +137,7 @@ def iter_retgen_multi(question: str, max_iters: int = 10, target_completeness: f
             if iteration < 2:  # Only expand in first couple iterations
                 print("Checking for areas to expand...")
                 new_draft, expansion_text, expansion_res = run_prompt(expansion_prompt, draft=draft)
+                print_llm_result(expansion_text, expansion_res)
                 draft = new_draft
                 current_gaps = draft.count("[MISSING:")
 
@@ -167,12 +159,7 @@ def iter_retgen_multi(question: str, max_iters: int = 10, target_completeness: f
         # Generate queries for missing information
         queries, queries_text, queries_res = run_prompt(query_prompt, draft=draft)
         print("\n=== Generated Queries ===")
-        queries_list = queries.split('\n')
-        for i, query in enumerate(queries_list[:10], 1):  # Show max 10 queries
-            if query.strip():
-                print(f"{i}. {query.strip()}")
-        if len(queries_list) > 10:
-            print(f"   ... and {len(queries_list) - 10} more queries")
+        print_llm_result(queries_text, queries_res)
 
         # Fill gaps with new information (gradual filling based on iteration)
         fill_input = {
@@ -181,20 +168,20 @@ def iter_retgen_multi(question: str, max_iters: int = 10, target_completeness: f
             "queries": queries,
             "iteration": iteration + 1
         }
-        filled, fill_text, fill_res = run_prompt(fill_prompt, **fill_input)
-        draft = filled
+        new_draft, fill_text, fill_res = run_prompt(fill_prompt, **fill_input)
+        draft = new_draft
 
         # Show refined answer
         print("\n=== Refined Answer ===")
-        print(draft[:500] + "..." if len(draft) > 500 else draft)  # Show preview
+        print_llm_result(fill_text, fill_res)
 
         # Report progress
         new_gaps = draft.count("[MISSING:")
-        filled = current_gaps - new_gaps
-        print(f"\nProgress: Filled {filled} gaps, {new_gaps} remaining")
+        gaps_filled = current_gaps - new_gaps
+        print(f"\nProgress: Filled {gaps_filled} gaps, {new_gaps} remaining")
 
         # Check if we're making progress
-        if filled == 0:
+        if gaps_filled == 0:
             consecutive_no_progress += 1
             if consecutive_no_progress >= 3:
                 print("\nNo progress in 3 consecutive iterations. Stopping.")

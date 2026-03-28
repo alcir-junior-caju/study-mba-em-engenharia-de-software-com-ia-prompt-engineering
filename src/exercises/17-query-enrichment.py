@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from typing import List, Dict, Any, Optional
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
-from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
+from langchain_core.output_parsers import JsonOutputParser
 from pathlib import Path
 
 # Adiciona o diretório src ao PYTHONPATH
@@ -13,7 +13,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 
-from utils import print_llm_result
 
 # Load environment variables
 load_dotenv()
